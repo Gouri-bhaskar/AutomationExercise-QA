@@ -1,0 +1,51 @@
+# ===============================
+# Java + Maven + Selenium Project
+# ===============================
+
+# Ignore target directory (Maven build output)
+target/
+
+# Maven local repository metadata
+dependency-reduced-pom.xml
+release.properties
+buildNumber.properties
+
+# IntelliJ / Eclipse / VSCode IDE files
+*.iml
+.idea/
+*.ipr
+*.iws
+*.log
+*.class
+*.swp
+.project
+.settings/
+.classpath
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Java crash logs
+hs_err_pid*.log
+
+# ChromeDriver cache or session files
+chromedriver.log
+
+# Selenium screenshots or error dumps
+*.png
+
+# ExtentReports history if unwanted
+test-output/
+extent-config.xml
+
+# System generated files
+*.tmp
+*.temp
+*.out
+*.bak

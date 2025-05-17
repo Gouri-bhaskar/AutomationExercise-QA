@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite1" parallel="false" thread-count="1">
+    <listeners>
+        <listener class-name="modules.TestListener" />
+    </listeners>
+
+    <test name="Testcase Core Tests">
+        <classes>
+            <class name="tests.Testcase1" />
+        </classes>
+    </test>
+
+    <test name="Signup With Excel">
+        <classes>
+            <class name="tests.SignupWithExcelTest" />
+        </classes>
+    </test>
+
+    <test name="Product Listing Tests">
+        <classes>
+            <class name="tests.ProductListingTest" />
+        </classes>
+    </test>
+
+    <test name="Subscription Tests">
+        <classes>
+            <class name="tests.SubscriptionTest" />
+        </classes>
+    </test>
+
+    <test name="Account Deletion Test">
+        <classes>
+            <class name="tests.AccountDeletionTest" />
+        </classes>
+    </test>
+
+    <test name="Contact Us Test">
+        <classes>
+            <class name="tests.ContactUsTest" />
+        </classes>
+    </test>
+</suite>
