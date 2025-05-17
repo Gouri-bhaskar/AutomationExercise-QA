@@ -37,8 +37,6 @@ hs_err_pid*.log
 # ChromeDriver cache or session files
 chromedriver.log
 
-# Selenium screenshots or error dumps
-*.png
 
 # ExtentReports history if unwanted
 test-output/
